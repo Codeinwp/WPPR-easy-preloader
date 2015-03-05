@@ -5,7 +5,7 @@ Description: Using the preloader you can easily import settings from other posts
 Version: 1.0
 Author: Themeisle
 Author URI:  https://themeisle.com/
-Plugin URI: https://themeisle.com/plugins/WPPR-easy-preloader/
+Plugin URI: https://themeisle.com/plugins/wppr-easy-preloader/
 Requires at least: 3.5
 Tested up to: 4.0
 Stable tag: trunk
@@ -100,8 +100,6 @@ function wppr_ep_js_preloader() {
     </script>
     <?php
     }
-
-}
 
 function wppr_ep_backend_preloader(){
 	  global $post;
