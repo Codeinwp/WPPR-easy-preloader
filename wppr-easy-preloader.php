@@ -2,7 +2,7 @@
 /*
 Plugin Name: WPPR Easy Preloader
 Description: Using the preloader you can easily import settings from other posts, saving a lot of time in the long-term
-Version: 1.0.1
+Version: 1.0.2
 Author: Themeisle
 Author URI:  https://themeisle.com/
 Plugin URI: https://themeisle.com/plugins/wppr-easy-preloader/
