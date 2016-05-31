@@ -16,6 +16,7 @@ Domain Path: /languages
 */
 
 define("WPPR_PRELOADER_VERSION","1.1.0");
+define("WPPR_PRELOADER_PATH", realpath(dirname(__FILE__)));
 
 function wppr_ep_js_preloader() {
 
@@ -192,3 +193,11 @@ function wppr_ep_backend_preloader(){
 
     die(); // this is required to terminate immediately and return a proper response
 }
+
+// Added by Ash/Upwork
+function wppr_ep_load_dependencies(){
+    require_once WPPR_PRELOADER_PATH . "/lib/dependencies/tgm-activation.php";
+}
+add_action('plugins_loaded', 'wppr_ep_load_dependencies');
+// Added by Ash/Upwork
+
